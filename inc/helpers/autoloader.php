@@ -53,7 +53,7 @@ function autoloader( $resource = '' ) {
 				break;
 		}
 
-		$resource_path = sprintf( '%s/inc/%s/%s.php', AQUILA_DIR_PATH, $directory, $file_name );
+		$resource_path = sprintf( '%s/inc/%s/%s.php', APEX_DIR_PATH, $directory, $file_name );
 
 	}
 
