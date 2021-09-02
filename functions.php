@@ -5,6 +5,9 @@
  * @package Apex
  */
 
+
+require_once get_template_directory() . '/inc/helpers/autoloader.php';
+
 function apex_enqueue_script() {
     // Register style
     wp_register_style( 'style-css', get_template_directory_uri() . '/style.css', false, 'all' );
