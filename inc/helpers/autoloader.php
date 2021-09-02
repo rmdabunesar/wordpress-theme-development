@@ -14,7 +14,6 @@ function autoloader( $resource = '' ) {
 	$resource       = trim( $resource, '\\' );
 
 	if ( empty( $resource ) || strpos( $resource, '\\' ) === false || strpos( $resource, $namespace_root ) !== 0 ) {
-		
 		return;
 	}
 
@@ -54,7 +53,7 @@ function autoloader( $resource = '' ) {
 				break;
 		}
 
-		$resource_path = sprintf( '%s/inc/%s/%s.php', untrailingslashit( APEX_DIR_PATH ), $directory, $file_name );
+		$resource_path = sprintf( '%s/inc/%s/%s.php', AQUILA_DIR_PATH, $directory, $file_name );
 
 	}
 
