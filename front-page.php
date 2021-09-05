@@ -1,6 +1,6 @@
 <?php
 /**
- * Main template file
+ * Front Page Template
  * 
  * @package Apex
  */
@@ -9,6 +9,6 @@
 
 <?php get_header(); ?>
     <div class="content">
-        <?php esc_html_e( 'Content Blog', 'apex' ); ?>
+        <?php esc_html_e( 'Front Page', 'apex' ); ?>
     </div>
 <?php get_footer(); ?>
