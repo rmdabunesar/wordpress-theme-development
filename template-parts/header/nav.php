@@ -13,7 +13,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 
 
 <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-  <div class="container-fluid">
+  <div class="container">
     <?php 
       if ( has_custom_logo() ) {
         the_custom_logo();
@@ -74,9 +74,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
         <?php
         }     
       ?>
-    </div>
-
-
+    </div> 
   </div>
 </nav>
 
